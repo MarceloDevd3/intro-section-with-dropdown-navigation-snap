@@ -15,15 +15,32 @@ a {
     text-decoration: none;
 }
 
+:root {
+--Almost-White: hsl(0, 0%, 98%);
+--Medium-Gray: hsl(0, 0%, 41%);
+--Almost-Black: hsl(0, 0%, 8%);
+}
+
 body {
   font-size: 1.125rem;
   font-family: 'Epilogue', sans-serif;
 }
 
-:root {
---Almost-White: hsl(0, 0%, 98%);
---Medium-Gray: hsl(0, 0%, 41%);
---Almost-Black: hsl(0, 0%, 8%);
+
+
+h1 {
+    color: var(--Almost-Black);
+    font-weight: 700;
+}
+
+
+p{
+    color: var(--Medium-Gray);
+}
+
+
+body {
+  background-color: var(--Almost-White);
 }
 
 
