@@ -1,0 +1,10 @@
+@import url(/node_modules/bootstrap/scss/_navbar.scss);
+@import url(/node_modules/bootstrap/scss/_variables.scss);
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+.navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}/*# sourceMappingURL=custom.css.map */

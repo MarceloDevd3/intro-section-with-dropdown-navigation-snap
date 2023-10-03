@@ -1,0 +1,46 @@
+@media (min-width:768px) {
+    .mobile {
+        display: none;
+    }
+
+    .desk {
+        display: block;
+        max-width:75% !important ;
+    }
+
+    .order-md-2 > img {
+     position: relative;
+     left: 125px;
+    }
+
+    .space {
+        margin: 0;
+        text-align: left;
+    }
+    
+    .limite p {
+        margin: 0;
+        margin-bottom: 15px;
+        width: 75%;
+    }
+
+    .space h1{
+        font-size: 5.5rem;
+        margin-bottom: 35px;
+    }
+
+    .col > button {
+        margin-top: 15px;
+        margin-bottom: 75px;
+    }
+}
+
+
+
+@media (min-width:1440px) {
+    .space h1{
+        font-size: 6.2rem;
+        margin-bottom: 35px;
+    }
+
+} 

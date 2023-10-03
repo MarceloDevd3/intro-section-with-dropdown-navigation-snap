@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/breakpoints.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/custom.scss">
+  <link rel="stylesheet" href="css/custom.css">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg mt-1 mx-md-3 bg-gradient " aria-label="Offcanvas navbar large">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img class="mt-1" src="images/logo.svg" alt="logo"></a>
+      <button class="navbar-toggler"  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2"
+       aria-controls="offcanvasNavbar2">
+        <i class="icon"><img src="images/icon-menu.svg" alt="icon"></i>
+      </button>
+      <div class="offcanvas offcanvas-end text-black" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Offcanvas</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+           
+            <li class="nav-item dropdown">
+              <a class="nav-link vis" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Features   <i class="arrrow"><img src="images/icon-arrow-down.svg" alt=""></i>
+              </a>
+              <ul class="dropdown-menu" style="min-width:100px;">
+                <li><a class="dropdown-item" href="#"><img class="mb-1 me-2" src="images/icon-todo.svg" alt="logo"> Todo List</a></li>
+                <li><a class="dropdown-item" href="#"><img class="mb-1 me-2" src="images/icon-calendar.svg" alt="calendar"> Calendar</a></li>
+                <li><a class="dropdown-item" href="#"><img class="mb-1 me-2" src="images/icon-reminders.svg" alt="icon-reminders"> Reminders</a></li>
+                <li><a class="dropdown-item" href="#"><img class="mb-1 me-2" src="images/icon-planning.svg" alt="planning"> Planning</a></li>
+               
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link vis " href="#" role="button" data-bs-toggle="dropdown" 
+              aria-expanded="false">
+                Company  <i class="arrrow"><img src="images/icon-arrow-down.svg" alt=""></i>
+              </a>
+              <ul class="dropdown-menu" style="min-width: 75px;">
+                <li><a class="dropdown-item" href="#">History</a></li>
+                <li><a class="dropdown-item" href="#">Our Team</a></li>
+                <li><a class="dropdown-item" href="#">Blog</a></li>
+              </ul>
+            </li>
+
+             <li class="nav-item">
+              <a class="nav-link" href="#">Careers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"> About</a>
+            </li>
+          </ul>
+          <div class="d-grid gap-2 d-md-flex gap-1justify-content-md-end">
+            <button class="btn  me-md-2" type="button">Login</button>
+            <button class="btn active " type="button">Register</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main class="p-md-5 ">
+     <div class="row  mx-md-5 position-relative row-cols-1 row-cols-2 g-md-5">
+
+      <div class="col-12 col-md-6 order-2 order-md-1">
+        <div class="row d-flex space">
+          <h1>  Make remote work</h1>
+          <div class="limite">
+            <p> Get your team in sync, no matter your location. Streamline processes, 
+              create team rituals, and watch productivity soar.</p>
+          </div>
+        <div class="col">
+          <button class="btn active ">Learn more</button>
+        </div>
+        </div>
+        <div class="row row-cols-auto">
+          <div class="col-3 ">
+            <img src="images/client-databiz.svg" alt="databiz" class="img-fluid">
+          </div>
+          <div class="col-3">
+            <img src="images/client-audiophile.svg" alt="audio" class="img-fluid">
+          </div>
+          <div class="col-3">
+            <img src="images/client-meet.svg" alt="meet" class="img-fluid">
+          </div>
+          <div class="col-3">
+            <img src="images/client-maker.svg" alt="mark" class="img-fluid">
+          </div>
+         </div>
+      </div>
+      <div class="col-12 col-md-6 order-1  order-md-2">
+          <img src="images/image-hero-mobile.png" alt="mobile" class="mobile img-fluid">
+          <img src="images/image-hero-desktop.png" alt="desk" class="desk img-fluid">
+        </div>
+      </div>
+
+     
+     </div>
+  </main>
+</body>
+
+
+</html>
